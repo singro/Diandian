@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DDEngine.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DDEngineDelegate> {
+    DDEngine *engine;
+}
 
 @end
